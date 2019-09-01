@@ -1,4 +1,4 @@
-const addTodo = (todo) => {
+export const addTodo = (todo) => {
     return {
         type : 'add_todo',
         payload : {
@@ -7,4 +7,3 @@ const addTodo = (todo) => {
     };
 }
 
-export default addTodo;

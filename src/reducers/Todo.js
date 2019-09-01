@@ -2,7 +2,7 @@ const initialState = {
     todoList : []
 }
 
-const todoReducer = (state = initialState, action) => {
+export const todoReducer = (state = initialState, action) => {
     switch(action.type){
         case "add_todo":
             const todo = action.payload.todo;
